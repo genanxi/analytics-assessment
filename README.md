@@ -44,8 +44,6 @@ The level of detail included in each section is intended to provide transparency
 
 ## Repository Structure
 
-## Repository Structure
-
 ```text
 analytics-assessment/
 
