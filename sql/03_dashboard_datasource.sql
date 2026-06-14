@@ -106,7 +106,7 @@ base AS (
         ON a.account_id = ce.account_id
 ),
 
-scored AS (
+scored AS ( --totally made up this part :)
     SELECT
         *,
 
@@ -122,7 +122,7 @@ scored AS (
     FROM base
 )
 
-SELECT
+SELECT -- just some wild assumptions :)
     *,
 
     CASE
