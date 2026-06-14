@@ -24,11 +24,15 @@ The first objective is to understand:
 
 ### Data Model
 
-Accounts
-├── Subscriptions
-│   └── Feature Usage
-├── Support Tickets
-└── Churn Events
+## Data Model
+
+```mermaid
+erDiagram
+    ACCOUNTS ||--o{ SUBSCRIPTIONS : has
+    SUBSCRIPTIONS ||--o{ FEATURE_USAGE : generates
+    ACCOUNTS ||--o{ SUPPORT_TICKETS : creates
+    ACCOUNTS ||--o{ CHURN_EVENTS : experiences
+```
 
 ### Accounts Table:
 - Primary customer dimension table
