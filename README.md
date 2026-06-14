@@ -45,7 +45,7 @@ docs/
 sql/
 ├── 01_data_quality.sql
 ├── 02_business_questions.sql
-└── 03_dashbord_datasource.sql
+└── 03_dashboard_datasource.sql
 
 python/
 ├── Churn Correlation Anlaysis.md
