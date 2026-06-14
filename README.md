@@ -48,10 +48,10 @@ sql/
 └── 03_dashbord_datasource.sql
 
 python/
+├── Churn Correlation Anlaysis.md
 └── churn_analysis.ipynb
 
 visualizations/
-├── analysis/
 └── dashboard_mockup/
 
 ```
